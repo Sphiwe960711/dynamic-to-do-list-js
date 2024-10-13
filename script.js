@@ -17,11 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Create a new list item
-        const listItem = document.createElement('li');
+        const listItem = document.createElement('li'); // Create li element
         listItem.textContent = taskText; // Set the text content to the task text
 
         // Create a remove button
-        const removeButton = document.createElement('button');
+        const removeButton = document.createElement('button'); // Create button element
         removeButton.textContent = "Remove"; // Set the button text
         removeButton.className = 'remove-btn'; // Add a class for styling
 
@@ -49,3 +49,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+        
