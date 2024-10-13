@@ -1,7 +1,7 @@
 // Wait for the DOM to fully load before running the script
 document.addEventListener('DOMContentLoaded', function() {
     // Select the necessary DOM elements
-    const addButton = document.getElementById('add-task'); // The "Add Task" button
+    const addButton = document.getElementById('add-task-btn'); // The "Add Task" button
     const taskInput = document.getElementById('task-input'); // Input field for tasks
     const taskList = document.getElementById('task-list'); // Unordered list for displaying tasks
 
