@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function addTask() {
         // Retrieve and trim the value from the input field
         const taskText = taskInput.value.trim();
-        
+
         // Check if the input is empty
         if (taskText === "") {
             alert("Please enter a task."); // Alert the user if the input is empty
@@ -48,7 +48,4 @@ document.addEventListener('DOMContentLoaded', function() {
             addTask(); // Call addTask if "Enter" key is pressed
         }
     });
-
-    // Optional: Call addTask on DOMContentLoaded if needed (not usually necessary)
-    // addTask(); // Uncomment if you want to initialize with a task
 });
